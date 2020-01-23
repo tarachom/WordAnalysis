@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <words>
+
+    <word state="a">Програмний</word>
+
+  </words>
+
+  <state name="a">
+
+    <word state="aa">компонент</word>
+    <word state="ab">модуль</word>
+
+  </state>
+
+  <state name="aa">
+
+    <word state="aaa">цифрового</word>
+
+  </state>
+
+  <state name="aaa">
+
+    <word state="aaaa">фазометра</word>
+
+  </state>
+
+  <state name="aaaa">
+    <resultat>OK</resultat>
+  </state>
+
+  <state name="ab">
+
+    <word state="aba">XML</word>
+
+  </state>
+
+</root>
